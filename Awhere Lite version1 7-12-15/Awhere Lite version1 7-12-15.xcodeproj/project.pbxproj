@@ -13,6 +13,7 @@
 		F0533C161B52FBF600B483AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0533C151B52FBF600B483AF /* Images.xcassets */; };
 		F0533C191B52FBF600B483AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0533C171B52FBF600B483AF /* LaunchScreen.xib */; };
 		F0533C251B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0533C241B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift */; };
+		F0533C2F1B52FE8400B483AF /* _Awhere-logo-3-copy-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0533C2E1B52FE8400B483AF /* _Awhere-logo-3-copy-2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F0533C1E1B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awhere Lite version1 7-12-15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0533C231B52FBF600B483AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0533C241B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awhere_Lite_version1_7_12_15Tests.swift; sourceTree = "<group>"; };
+		F0533C2E1B52FE8400B483AF /* _Awhere-logo-3-copy-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "_Awhere-logo-3-copy-2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				F0533C121B52FBF600B483AF /* Main.storyboard */,
 				F0533C151B52FBF600B483AF /* Images.xcassets */,
 				F0533C171B52FBF600B483AF /* LaunchScreen.xib */,
+				F0533C2E1B52FE8400B483AF /* _Awhere-logo-3-copy-2.gif */,
 				F0533C0C1B52FBF600B483AF /* Supporting Files */,
 			);
 			path = "Awhere Lite version1 7-12-15";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0533C141B52FBF600B483AF /* Main.storyboard in Resources */,
+				F0533C2F1B52FE8400B483AF /* _Awhere-logo-3-copy-2.gif in Resources */,
 				F0533C191B52FBF600B483AF /* LaunchScreen.xib in Resources */,
 				F0533C161B52FBF600B483AF /* Images.xcassets in Resources */,
 			);
@@ -409,6 +413,7 @@
 				F0533C2A1B52FBF600B483AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0533C2B1B52FBF600B483AF /* Build configuration list for PBXNativeTarget "Awhere Lite version1 7-12-15Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				F0533C2D1B52FBF600B483AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
