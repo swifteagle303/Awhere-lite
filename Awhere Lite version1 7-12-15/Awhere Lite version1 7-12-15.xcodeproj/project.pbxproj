@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0533C0F1B52FBF600B483AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0533C0E1B52FBF600B483AF /* AppDelegate.swift */; };
+		F0533C111B52FBF600B483AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0533C101B52FBF600B483AF /* ViewController.swift */; };
+		F0533C141B52FBF600B483AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0533C121B52FBF600B483AF /* Main.storyboard */; };
+		F0533C161B52FBF600B483AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0533C151B52FBF600B483AF /* Images.xcassets */; };
+		F0533C191B52FBF600B483AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0533C171B52FBF600B483AF /* LaunchScreen.xib */; };
+		F0533C251B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0533C241B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0533C1F1B52FBF600B483AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0533C011B52FBF500B483AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0533C081B52FBF600B483AF;
+			remoteInfo = "Awhere Lite version1 7-12-15";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0533C091B52FBF600B483AF /* Awhere Lite version1 7-12-15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awhere Lite version1 7-12-15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0533C0D1B52FBF600B483AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0533C0E1B52FBF600B483AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0533C101B52FBF600B483AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0533C131B52FBF600B483AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0533C151B52FBF600B483AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0533C181B52FBF600B483AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F0533C1E1B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awhere Lite version1 7-12-15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0533C231B52FBF600B483AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0533C241B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awhere_Lite_version1_7_12_15Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0533C061B52FBF600B483AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0533C1B1B52FBF600B483AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0533C001B52FBF500B483AF = {
+			isa = PBXGroup;
+			children = (
+				F0533C0B1B52FBF600B483AF /* Awhere Lite version1 7-12-15 */,
+				F0533C211B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests */,
+				F0533C0A1B52FBF600B483AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0533C0A1B52FBF600B483AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0533C091B52FBF600B483AF /* Awhere Lite version1 7-12-15.app */,
+				F0533C1E1B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0533C0B1B52FBF600B483AF /* Awhere Lite version1 7-12-15 */ = {
+			isa = PBXGroup;
+			children = (
+				F0533C0E1B52FBF600B483AF /* AppDelegate.swift */,
+				F0533C101B52FBF600B483AF /* ViewController.swift */,
+				F0533C121B52FBF600B483AF /* Main.storyboard */,
+				F0533C151B52FBF600B483AF /* Images.xcassets */,
+				F0533C171B52FBF600B483AF /* LaunchScreen.xib */,
+				F0533C0C1B52FBF600B483AF /* Supporting Files */,
+			);
+			path = "Awhere Lite version1 7-12-15";
+			sourceTree = "<group>";
+		};
+		F0533C0C1B52FBF600B483AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0533C0D1B52FBF600B483AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0533C211B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0533C241B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift */,
+				F0533C221B52FBF600B483AF /* Supporting Files */,
+			);
+			path = "Awhere Lite version1 7-12-15Tests";
+			sourceTree = "<group>";
+		};
+		F0533C221B52FBF600B483AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0533C231B52FBF600B483AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0533C081B52FBF600B483AF /* Awhere Lite version1 7-12-15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0533C281B52FBF600B483AF /* Build configuration list for PBXNativeTarget "Awhere Lite version1 7-12-15" */;
+			buildPhases = (
+				F0533C051B52FBF600B483AF /* Sources */,
+				F0533C061B52FBF600B483AF /* Frameworks */,
+				F0533C071B52FBF600B483AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awhere Lite version1 7-12-15";
+			productName = "Awhere Lite version1 7-12-15";
+			productReference = F0533C091B52FBF600B483AF /* Awhere Lite version1 7-12-15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0533C1D1B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0533C2B1B52FBF600B483AF /* Build configuration list for PBXNativeTarget "Awhere Lite version1 7-12-15Tests" */;
+			buildPhases = (
+				F0533C1A1B52FBF600B483AF /* Sources */,
+				F0533C1B1B52FBF600B483AF /* Frameworks */,
+				F0533C1C1B52FBF600B483AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0533C201B52FBF600B483AF /* PBXTargetDependency */,
+			);
+			name = "Awhere Lite version1 7-12-15Tests";
+			productName = "Awhere Lite version1 7-12-15Tests";
+			productReference = F0533C1E1B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0533C011B52FBF500B483AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Blain VanNice";
+				TargetAttributes = {
+					F0533C081B52FBF600B483AF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F0533C1D1B52FBF600B483AF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F0533C081B52FBF600B483AF;
+					};
+				};
+			};
+			buildConfigurationList = F0533C041B52FBF500B483AF /* Build configuration list for PBXProject "Awhere Lite version1 7-12-15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0533C001B52FBF500B483AF;
+			productRefGroup = F0533C0A1B52FBF600B483AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0533C081B52FBF600B483AF /* Awhere Lite version1 7-12-15 */,
+				F0533C1D1B52FBF600B483AF /* Awhere Lite version1 7-12-15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0533C071B52FBF600B483AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0533C141B52FBF600B483AF /* Main.storyboard in Resources */,
+				F0533C191B52FBF600B483AF /* LaunchScreen.xib in Resources */,
+				F0533C161B52FBF600B483AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0533C1C1B52FBF600B483AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0533C051B52FBF600B483AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0533C111B52FBF600B483AF /* ViewController.swift in Sources */,
+				F0533C0F1B52FBF600B483AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0533C1A1B52FBF600B483AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0533C251B52FBF600B483AF /* Awhere_Lite_version1_7_12_15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0533C201B52FBF600B483AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0533C081B52FBF600B483AF /* Awhere Lite version1 7-12-15 */;
+			targetProxy = F0533C1F1B52FBF600B483AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0533C121B52FBF600B483AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0533C131B52FBF600B483AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0533C171B52FBF600B483AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0533C181B52FBF600B483AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0533C261B52FBF600B483AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0533C271B52FBF600B483AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0533C291B52FBF600B483AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Awhere Lite version1 7-12-15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0533C2A1B52FBF600B483AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Awhere Lite version1 7-12-15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0533C2C1B52FBF600B483AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Awhere Lite version1 7-12-15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awhere Lite version1 7-12-15.app/Awhere Lite version1 7-12-15";
+			};
+			name = Debug;
+		};
+		F0533C2D1B52FBF600B483AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Awhere Lite version1 7-12-15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awhere Lite version1 7-12-15.app/Awhere Lite version1 7-12-15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0533C041B52FBF500B483AF /* Build configuration list for PBXProject "Awhere Lite version1 7-12-15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0533C261B52FBF600B483AF /* Debug */,
+				F0533C271B52FBF600B483AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0533C281B52FBF600B483AF /* Build configuration list for PBXNativeTarget "Awhere Lite version1 7-12-15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0533C291B52FBF600B483AF /* Debug */,
+				F0533C2A1B52FBF600B483AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0533C2B1B52FBF600B483AF /* Build configuration list for PBXNativeTarget "Awhere Lite version1 7-12-15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0533C2C1B52FBF600B483AF /* Debug */,
+				F0533C2D1B52FBF600B483AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0533C011B52FBF500B483AF /* Project object */;
+}
